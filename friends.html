@@ -9,6 +9,7 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends Kakao Clone</title>
   </head>
   <body>
@@ -41,8 +42,8 @@
       </div>
     </header>
     <main class="friends">
-      <header>
-        <div class="friends__friend friend friend--lg">
+      <header class="friends__header">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="imgs/4.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -57,10 +58,10 @@
         </div>
       </header>
       <div class="friends__plus">
-        <h5 class="friends__plus-title">Plus friends__plus</h5>
+        <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="imgs/4.jpg" class="g-avatar friend__avatar" />
+            <img src="imgs/4.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -73,13 +74,13 @@
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="imgs/4.jpg" class="g-avatar friend__avatar" />
+            <img src="imgs/1.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Minseok Jeong
+                Hash
               </span>
               <span class="friend__status">
-                nomadcoders.co
+                push!
               </span>
             </div>
           </div>
@@ -116,5 +117,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigscreen">
+      <span class="bigscreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
